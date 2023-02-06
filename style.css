@@ -1,0 +1,40 @@
+:root {
+/* ## Colors */
+/* ### Primary */
+
+--clr-primary-Red:hsl(0, 100%, 74%); 
+--clr-primary-Green: hsl(154, 59%, 51%);
+
+/* ### Accent */
+--clr-primary-Blue: hsl(248, 32%, 49%);
+
+/* ### Neutral */
+--clr-primary-Dark-Blue: hsl(249, 10%, 26%); 
+--clr-primary-Grayish-Blue: hsl(246, 25%, 77%);
+
+/* ## Typography */
+/* ### Body Copy */
+--fs-body-copy: 16px;
+
+/* ### Font */
+--ff-page: "poppins", sans-serif;
+
+--fw-400: 400;
+--fw-500: 500;
+--fw-600: 600;
+--fw-700: 700;
+}
+
+body {
+    display: flex;
+
+    background: url(./assets/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-color: var(--clr-primary-Red);
+    font-size: var(--fs-body-copy);
+    font-family: var(--ff-page);
+}
+
+.container {
+    display: flex;
+}
