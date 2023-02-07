@@ -27,6 +27,9 @@
 
 body {
     display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
 
     background: url(./assets/bg-intro-desktop.png);
     background-repeat: no-repeat;
@@ -37,4 +40,98 @@ body {
 
 .container {
     display: flex;
+}
+
+.txt-codificar {
+    color: #ffff;
+    font-size: 23px;
+}
+
+.txt-dev {
+    color: #ffff;
+    font-size: 16px;
+}
+
+.h1-h2 {
+    margin-top: 250px;
+}
+
+.descricao-valor {
+    background-color: var(--clr-primary-Blue);
+    color: #FEF9FF;
+    height: 45px;
+    width: 365px;
+    margin: 15px 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px #80808040;
+    font-family: var(--ff-page);
+    font-size: 12px;
+}
+
+#p-buy {
+    padding: 3px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    
+}
+
+#form {
+    background-color: #ffff;
+    width: 365px;
+    height: 295px;
+    margin-right: 90px;
+    border-radius: 6px;
+    box-shadow: 0px 4px #80808040;
+    padding-top: 12px;
+}
+
+#form-preencher {
+    border: 1px solid #80808040;
+    width: 317px;
+    height: 30px;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+
+.to-send {
+    border: 1px solid #80808040;
+    width: 322px;
+    height: 35px; 
+    border-radius: 3px;
+    background-color: var(--clr-primary-Green);
+    color: #FEF9FF;
+    box-shadow: 0px 2px #48a55cf0;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.to-send:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    box-shadow: 0px 2px #95f7aaf3;
+
+}
+
+.terms {
+    margin-top: 16px;
+    font-size: 8px;
+    color: #BEBEBE;
+}
+
+#services {
+    text-decoration: none;
+    border: none;
+    background-color: #ffff;
+    color: #cf1d1d;
+    font-size: 8px;
+}
+
+#services:hover {
+    font-size: 9px;
+    cursor: pointer;
 }
