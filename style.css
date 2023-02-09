@@ -86,7 +86,7 @@ body {
     padding-top: 12px;
 }
 
-#form-preencher {
+.input-padrao {
     border: 1px solid #80808040;
     width: 317px;
     height: 30px;
