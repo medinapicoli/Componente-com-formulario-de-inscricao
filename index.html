@@ -27,25 +27,33 @@
                 <p id="p-buy"><b>Try it free 7 days </b>then $20/mo. thereafter</p>
             </div>
             <form id="form">
-                <label for="nome"></label>
-                <input type="text" id="first-name" class="input-padrao" required placeholder="     First Name" >
-                
-                <label for="sobrenome"></label>
-                <input type="text" id="last-name" class="input-padrao" required placeholder="     Last Name" >
-
-                <label for="email"></label>
-                <input type="emial" id="email-address" class="input-padrao" required placeholder="     Email Address">
-
-                <label for="password"></label>
-                <input type="password" id="Password" class="input-padrao" required placeholder="     Password">
-                
+                <div id="input-area" >
+                    <label for="nome"></label>
+                    <input type="text" id="first-name" class="input-padrao" placeholder="     First Name" >
+                    <img src="./assets/icon-error.svg" alt="imagem de erro" class="input-error">
+                </div>
+                <div id="input-area" >
+                    <label for="sobrenome"></label>
+                    <input type="text" id="last-name" class="input-padrao" placeholder="     Last Name" >
+                    <img src="./assets/icon-error.svg" alt="imagem de erro" class="input-error">
+                </div>
+                <div id="input-area" >
+                    <label for="email"></label>
+                    <input type="emial" id="email-address" class="input-padrao" placeholder="     email@example.com">
+                    <img src="./assets/icon-error.svg" alt="imagem de erro" class="input-error">
+                </div>
+                <div id="input-area" >
+                    <label for="password"></label>
+                    <input type="password" id="Password" class="input-padrao" placeholder="     Password">
+                    <img src="./assets/icon-error.svg" alt="imagem de erro" class="input-error">
+                </div>
                 <div id="button-buy">
-                    <input type="submit" value=" CLAIN YOUR FREE TRIAL" class="to-send">
+                    <input type="submit" value=" CLAIN YOUR FREE TRIAL" id="btn-submit">
                 </div>
 
                 <div id="terms-contrato" >
-                    <p class="terms" >By clicking the button, you are agreeing to our <button id="services"
-                       onclick="myTerms">Terms and Services</button></p>
+                    <p class="terms" >By clicking the button, you are agreeing to our 
+                     <button id="services">Terms and Services</button></p>
                 </div>
             </form>
 
